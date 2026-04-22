@@ -716,3 +716,9 @@
       padding: 1.5rem;
     }
   }
+
+  .logo-img {
+    height: 50px;   /* adjust size */
+    width: auto;
+    display: block;
+  }
