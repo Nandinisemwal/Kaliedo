@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaleido | Explore Events</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">Kaleido</a>
+
+    <nav class="site-nav">
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="events.html" class="active">Explore</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+
+  <section class="fun-banner banner-gradient">
+    <div class="banner-shape shape-a"></div>
+    <div class="banner-shape shape-c"></div>
+
+    <div class="container reveal">
+      <p class="tag light-tag">Explore Kaleido</p>
+      <h1>Find events that match your vibe</h1>
+      <p class="banner-text">
+        Browse music, food, art, and cultural experiences in a colorful and interactive way.
+      </p>
+    </div>
+  </section>
+
+  <section class="events-filter">
+    <div class="container filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="music">Music</button>
+      <button class="filter-btn" data-filter="food">Food</button>
+      <button class="filter-btn" data-filter="art">Art</button>
+      <button class="filter-btn" data-filter="culture">Culture</button>
+    </div>
+  </section>
+
+  <section class="events-grid-section">
+    <div class="container events-grid">
+
+      <div class="event-card music-card reveal tilt-card" data-category="music">
+        <div class="event-icon-wrap"><i class="fa-solid fa-music"></i></div>
+        <span class="event-label">Music</span>
+        <h3>Live Music Nights</h3>
+        <p>Enjoy exciting performances from local artists across Calgary.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+      <div class="event-card food-card reveal tilt-card" data-category="food">
+        <div class="event-icon-wrap"><i class="fa-solid fa-utensils"></i></div>
+        <span class="event-label">Food</span>
+        <h3>Food Markets</h3>
+        <p>Discover local vendors, street eats, and delicious new flavors.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+      <div class="event-card art-card reveal tilt-card" data-category="art">
+        <div class="event-icon-wrap"><i class="fa-solid fa-palette"></i></div>
+        <span class="event-label">Art</span>
+        <h3>Art Exhibitions</h3>
+        <p>Explore creative spaces with modern and traditional art displays.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+      <div class="event-card culture-card reveal tilt-card" data-category="culture">
+        <div class="event-icon-wrap"><i class="fa-solid fa-globe"></i></div>
+        <span class="event-label">Culture</span>
+        <h3>Cultural Shows</h3>
+        <p>Celebrate diverse traditions, performances, and community moments.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+      <div class="event-card music-card reveal tilt-card" data-category="music">
+        <div class="event-icon-wrap"><i class="fa-solid fa-headphones"></i></div>
+        <span class="event-label">Music</span>
+        <h3>DJ Night Sessions</h3>
+        <p>Dance through immersive beats, sound, and energy-filled nights.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+      <div class="event-card food-card reveal tilt-card" data-category="food">
+        <div class="event-icon-wrap"><i class="fa-solid fa-ice-cream"></i></div>
+        <span class="event-label">Food</span>
+        <h3>Dessert Fest</h3>
+        <p>Try fun desserts, sweet treats, and one-of-a-kind festival snacks.</p>
+        <button class="mini-btn">View More</button>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>© 2026 Kaleido. Explore more, experience more.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
